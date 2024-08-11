@@ -66,6 +66,7 @@ type Ex<Tdata> = Success<Tdata> | Default;
 #### 기타
 
 - React Query에서는 유니온 타입을 사용
+- https://github.com/TanStack/query/blob/main/packages/query-core/src/types.ts#L725C1-L751C46
 
 ```ts
 export interface QueryObserverSuccessResult<
