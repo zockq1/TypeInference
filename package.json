@@ -1,0 +1,22 @@
+{
+  "name": "type-inference",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zockq1/TypeInference.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zockq1/TypeInference/issues"
+  },
+  "homepage": "https://github.com/zockq1/TypeInference#readme",
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.2.7"
+  }
+}
