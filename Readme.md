@@ -32,23 +32,15 @@ let temp = isSuccess ? data : "";
 
 ```ts
 // TypeScript 컴파일러가 자동으로 추론한 return 타입
-const selectEx: ((state: {
-    ex: Ex<string>;
-}) => {
-    data: string;
-    isSuccess: true;
-} | {
-    data: string | undefined;
-    isSuccess: false;
-}) & {
-  clearCache: () => void;
-    resultsCount: () => number;
-    resetResultsCount: () => void;
-} & {
-    ...;
-} & {
-    ...;
-}
+const selectEx: (state: { ex: Ex<string> }) =>
+  | {
+      data: string;
+      isSuccess: true;
+    }
+  | {
+      data: string | undefined;
+      isSuccess: false;
+    };
 ```
 
 **2. 유니온 타입을 사용한 접근**
