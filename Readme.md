@@ -28,7 +28,7 @@ let temp = isSuccess ? data : "";
 ```
 
 - 함수 내에서 `isSuccess`에 따라 반환하는 `data`의 타입을 조건부로 처리
-- TypeScript 컴파일러는 함수 내부에서 조건에 따라 반환되는 값들의 타입을 자동으로 추론하며, 이러한 추론은 유니온 타입으로 정의
+- TypeScript 컴파일러는 함수 내부에서 조건에 따른 return 타입을 자동으로 추론하며, 유니온 타입으로 정의됨
 
 ```ts
 // TypeScript 컴파일러가 자동으로 추론한 return 타입
